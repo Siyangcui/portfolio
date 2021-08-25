@@ -9,6 +9,7 @@ body {
   margin: 0%;
   font-family: "firago", "Helvetica Neue", "Helvetica", sans-serif;
   color: white;
+  width: 100%;
 }
 
 @font-face {
@@ -64,6 +65,8 @@ body {
   animation: fadeinout 5s linear forwards;
   opacity: 0;
   animation-iteration-count: infinite;
+  position: fixed;
+  margin-top: 13px;
 }
 
 @-webkit-keyframes fadeinout {
@@ -104,28 +107,11 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  margin: px;
+  margin: 0px;
   padding: 0px;
 }
 
-/*to fade in personal and social container upon webpage load*/
-/* .personal,
-.social-container h1 {
-  animation: fadeInAnimation ease 7s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-
-@keyframes fadeInAnimation {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-} */
-/* 
-start of test code */
+/* Fade in effects for name, profession and professional links*/
 @-webkit-keyframes fading {
   from {
     opacity: 0;
@@ -215,17 +201,14 @@ start of test code */
 }
 
 .social-container {
-  -webkit-animation-delay: 3s;
-  animation-delay: 3s;
+  -webkit-animation-delay: 3.5s;
+  animation-delay: 3.5s;
 }
-/* 
-end of test code */
 
 .personal {
   display: inline;
-  border: 1px solid white;
   height: 10em;
-  width: 500px;
+  width: 100%;
   margin: 0;
   text-align: center;
   vertical-align: middle;
@@ -236,10 +219,18 @@ h1 {
   font-size: 500%;
 }
 
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 200%;
+  }
+}
+
 .social-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: 0px;
+  padding: 0px;
 }
 .socials {
   padding: 0;
