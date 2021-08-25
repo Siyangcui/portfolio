@@ -16,6 +16,13 @@ body {
   src: url("/assets/fonts/FiraGO-Regular.woff") format("woff"),
     url("/assets/fonts/FiraGO-Regular.woff2") format("woff2");
 }
+.background-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(assets/t1.jpg);
+  background-position: center;
+  opacity: 0.5;
+}
 
 /* Navigation bar*/
 
