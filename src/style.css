@@ -1,0 +1,109 @@
+/*Website base design*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #212121;
+  padding: 0px;
+  margin: 0px;
+  font-family: "firago", "Helvetica Neue", "Helvetica", sans-serif;
+  color: white;
+}
+
+@font-face {
+  font-family: "firago";
+  src: url("/assets/fonts/FiraGO-Regular.woff") format("woff"),
+    url("/assets/fonts/FiraGO-Regular.woff2") format("woff2");
+}
+
+/* Navigation bar*/
+
+.nav-bar {
+  padding: 0;
+  margin: 0px;
+  height: 10%;
+  width: 100%;
+  background-color: #141414;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+/* Navigation bar logo*/
+.nav-bar-logo {
+  height: 70px;
+  width: auto;
+  -webkit-animation: fadeinout 5s linear forwards;
+  animation: fadeinout 5s linear forwards;
+  opacity: 0;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes fadeinout {
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeinout {
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Navigation bar unordered list*/
+.nav-link ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.nav-link li {
+  list-style: none;
+}
+
+.nav-link li a {
+  text-decoration: none;
+  color: white;
+  padding: 0.75rem;
+  display: block;
+  text-transform: uppercase;
+}
+
+.main-body-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.personal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.socials {
+  padding: 0;
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
