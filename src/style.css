@@ -37,6 +37,7 @@ body {
   align-items: center;
   flex-direction: row;
   box-sizing: border-box;
+  opacity: 40%;
 }
 
 /* Navigation bar logo*/
