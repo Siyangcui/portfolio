@@ -1,4 +1,9 @@
 /*Website base design*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -18,13 +23,6 @@ body {
     url("/assets/fonts/FiraGO-Regular.woff2") format("woff2");
 }
 
-/* .background-image {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background: url(assets/t1.jpg);
-  background-position: center;
-} */
-
 .background-image {
   background-image: linear-gradient(
       to top,
@@ -35,6 +33,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /* Navigation bar*/
@@ -52,6 +51,7 @@ body {
   box-sizing: border-box;
   opacity: 0.6;
   position: fixed;
+  z-index: 1;
 }
 
 .nav-bar:hover {
@@ -111,7 +111,7 @@ body {
   }
 }
 
-.main-body-container {
+.home-body-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -294,4 +294,50 @@ h1 {
   display: absolute;
   margin: 0px;
   color: black;
+}
+
+/* Blog Page*/
+
+main {
+  display: absolute;
+  padding-top: 240px;
+}
+
+.blog-body-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+.splash {
+  height: 5rem;
+  width: 100%;
+  position: relative;
+  top: 140px;
+  text-align: center;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  width: 80%;
+  height: 100%;
+}
+
+.blog-image {
+  height: auto;
+  width: 50%;
+}
+
+.blog-title,
+.blog-date,
+.blog-content {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
