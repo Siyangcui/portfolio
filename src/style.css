@@ -60,14 +60,14 @@ body {
 
 /* Navigation bar logo*/
 .nav-bar-logo {
-  height: 70px;
+  height: 10%;
   width: auto;
   -webkit-animation: fadeinout 5s linear forwards;
   animation: fadeinout 5s linear forwards;
   opacity: 0;
   animation-iteration-count: infinite;
   position: fixed;
-  margin-top: 13px;
+  padding: 0px;
 }
 
 @-webkit-keyframes fadeinout {
