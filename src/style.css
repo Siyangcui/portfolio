@@ -60,13 +60,14 @@ body {
 
 /* Navigation bar logo*/
 .nav-bar-logo {
-  height: 10%;
+  height: 5rem;
   width: auto;
   -webkit-animation: fadeinout 5s linear forwards;
   animation: fadeinout 5s linear forwards;
   opacity: 0;
   animation-iteration-count: infinite;
-  position: fixed;
+  position: relative;
+  margin: 0px;
   padding: 0px;
 }
 
@@ -97,9 +98,17 @@ body {
 .nav-link li a {
   text-decoration: none;
   color: white;
-  padding: 0.75rem;
+  padding: 1.5rem;
   display: block;
   text-transform: uppercase;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 660px) {
+  .nav-link li a {
+    font-size: 9px;
+    padding: 0.4rem;
+  }
 }
 
 .main-body-container {
