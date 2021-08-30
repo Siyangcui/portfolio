@@ -36,6 +36,10 @@ body {
   background-attachment: fixed;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Navigation bar*/
 
 .nav-bar {
@@ -346,7 +350,8 @@ article {
 .index-name,
 .role,
 .socials,
-.nav-bar-links {
+.nav-bar-links,
+.bullet {
   text-shadow: 0 0 7px #fff, 0 0 10px rgb(193, 214, 73),
     0 0 21px rgb(214, 250, 11);
 }
@@ -365,7 +370,7 @@ mouse hover zoom effect */
   width: 100%;
   height: auto;
   border-radius: 1%;
-  /* transform: scale(1); */
+  transform: scale(1);
   transition: transform 1s;
 }
 .image-wrapper img:hover {
@@ -420,7 +425,7 @@ mouse hover zoom effect */
 }
 
 .toprow-photo {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   width: 80%;
   height: 500px;
   margin: 5px;
@@ -431,13 +436,31 @@ mouse hover zoom effect */
 }
 
 .toprow-me {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   width: 80%;
   height: 500px;
-  margin: 5px;
+  margin: 0px;
   display: flex;
-  padding: 5px;
   box-sizing: border-box;
+  justify-content: center;
+}
+
+.toprow-me > article {
+  /* border: 1px solid white; */
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.toprow-me > article > h3,
+.leftcolumn > article > h3 {
+  line-height: 5px;
+  padding-bottom: 10px;
 }
 
 .toprow-photo > img {
@@ -466,9 +489,44 @@ mouse hover zoom effect */
 
 .leftcolumn,
 .rightcolumn {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   width: 40%;
   height: 100px;
   margin: 5px;
   display: inline;
+}
+
+.toprow-me > article > a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: darkturquoise;
+  text-decoration: underline;
+}
+
+.toprow-me > article > ul,
+.leftcolumn > article > ul {
+  list-style: none;
+}
+
+.leftcolumn > article {
+  /* border: 1px solid white; */
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.leftcolumn > article > ul > li {
+  display: inline-block;
 }
