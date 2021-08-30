@@ -112,9 +112,22 @@ a {
   font-size: 18px;
 }
 
+@media screen and (max-width: 660px) {
+  .nav-bar-logo {
+    height: 3rem;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .nav-link li a {
+    font-size: 11px;
+    padding: 0.4rem;
+  }
+}
+
 @media only screen and (max-width: 660px) {
   .nav-link li a {
-    font-size: 9px;
+    font-size: 11px;
     padding: 0.4rem;
   }
 }
