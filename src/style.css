@@ -17,6 +17,10 @@ body {
   width: 100%;
 }
 
+footer {
+  padding: 20px;
+}
+
 @font-face {
   font-family: "firago";
   src: url("/assets/fonts/FiraGO-Regular.woff") format("woff"),
@@ -126,22 +130,6 @@ a {
 }
 
 /* Fade in effects for name, profession and professional links*/
-@-webkit-keyframes fading {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@-moz-keyframes fading {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 
 @keyframes fading {
   from {
@@ -250,8 +238,8 @@ h1 {
   padding: 0;
   margin: 3px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   position: relative;
 }
 
@@ -355,7 +343,7 @@ article {
   text-shadow: 0 0 7px #fff, 0 0 10px rgb(193, 214, 73),
     0 0 21px rgb(214, 250, 11);
 }
-/* To wrap image and put glow around border and round edges */
+/* image wrapper */
 .image-wrapper {
   width: 65%;
   height: auto;
@@ -489,9 +477,9 @@ mouse hover zoom effect */
 
 .leftcolumn,
 .rightcolumn {
-  /* border: 1px solid white; */
+  border: 1px solid white;
   width: 40%;
-  height: 100px;
+  height: auto;
   margin: 5px;
   display: inline;
 }
@@ -511,11 +499,14 @@ a:hover {
 }
 
 .toprow-me > article > ul,
-.leftcolumn > article > ul {
+.leftcolumn > section > article > ul,
+.sub-list,
+.rightcolumn > section > article > ul {
   list-style: none;
 }
 
-.leftcolumn > article {
+.leftcolumn > section > article,
+.rightcolumn > section > article {
   /* border: 1px solid white; */
   width: 100%;
   height: auto;
@@ -527,6 +518,6 @@ a:hover {
   overflow: hidden;
 }
 
-.leftcolumn > article > ul > li {
+.leftcolumn > section > article > ul > li {
   display: inline-block;
 }
