@@ -40,12 +40,6 @@ footer {
   background-attachment: fixed;
 }
 
-@media only screen and (max-width: 40em) {
-  .background-image {
-    background-size: auto !important;
-  }
-}
-
 a {
   text-decoration: none;
 }
