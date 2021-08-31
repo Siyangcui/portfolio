@@ -18,7 +18,7 @@ body {
 }
 
 footer {
-  padding: 20px;
+  padding: 10px;
 }
 
 @font-face {
@@ -28,11 +28,7 @@ footer {
 }
 
 .background-image {
-  background-image: linear-gradient(
-      to top,
-      rgba(255, 0, 0, 0),
-      rgba(20, 20, 20, 1)
-    ),
+  background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgb(20, 20, 20)),
     url(assets/t2.jpg);
   background-size: cover;
   background-position: center;
@@ -47,7 +43,7 @@ a {
 /* Navigation bar*/
 
 .nav-bar {
-  padding: 0;
+  padding: 0px;
   margin: 0px;
   height: 10%;
   width: 100%;
@@ -70,11 +66,10 @@ a {
 .nav-bar-logo {
   height: 5rem;
   width: auto;
-  -webkit-animation: fadeinout 5s linear forwards;
-  animation: fadeinout 5s linear forwards;
+  -webkit-animation: fadeinout 5s ease-in;
+  animation: fadeinout 5s ease-in;
   opacity: 0;
   animation-iteration-count: infinite;
-  position: relative;
   margin: 0px;
   padding: 0px;
 }
@@ -137,7 +132,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 98vh;
   margin: 0px;
   padding: 0px;
 }
@@ -270,7 +265,7 @@ h1 {
 #github::after {
   content: "Github";
   position: absolute;
-  align-items: center;
+  padding-left: 8px;
   top: 100%;
 }
 
@@ -285,6 +280,7 @@ h1 {
   content: "Twitter";
   position: absolute;
   align-items: center;
+  padding-left: 8px;
   top: 100%;
 }
 
@@ -370,7 +366,6 @@ mouse hover zoom effect */
 .image-wrapper img {
   width: 100%;
   height: auto;
-  border-radius: 1%;
   transform: scale(1);
   transition: transform 1s;
 }
@@ -425,6 +420,7 @@ mouse hover zoom effect */
   align-items: center;
 }
 
+/* Profile Photo */
 .toprow-photo {
   /* border: 1px solid white; */
   width: 80%;
@@ -433,7 +429,7 @@ mouse hover zoom effect */
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .toprow-me {
@@ -445,6 +441,7 @@ mouse hover zoom effect */
   justify-content: center;
 }
 
+/* Me article container */
 .toprow-me > article {
   /* border: 1px solid white; */
   width: 100%;
@@ -500,6 +497,7 @@ mouse hover zoom effect */
   line-height: 20px;
 }
 
+/* Text styling on Coder Academy hyper link */
 .toprow-me > article > a {
   text-decoration: none;
   color: white;
@@ -520,6 +518,7 @@ a:hover {
   list-style: none;
 }
 
+/* Styling and layout of the 2 columns on about me page */
 .leftcolumn > section > article,
 .rightcolumn > section > article {
   /* border: 1px solid white; */
@@ -541,6 +540,57 @@ a:hover {
   .leftcolumn > section > article > ul > li,
   .rightcolumn > section > article > ul > li,
   .toprow-me > article > * {
+    font-size: 12px;
+  }
+}
+
+/*Projects Page*/
+
+.project-body-container > section {
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+}
+
+.project-wrapper {
+  /* border: 1px solid white; */
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
+}
+
+.project-container {
+  text-align: center;
+  border: 1px solid white;
+  margin: 5px;
+  padding: 20px;
+  min-width: 40%;
+  min-height: 8rem;
+  background-color: rgba(20, 20, 20, 0.7);
+  box-shadow: 0 0 7px #fff, 0 0 10px rgb(193, 214, 73);
+}
+
+.project-icon {
+  transition: transform 1s;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.project-icon:hover {
+  transform: scale(1.2);
+}
+
+#project1 {
+  max-height: 10rem;
+  max-width: 8rem;
+}
+
+@media only screen and (max-width: 415px) {
+  .project-container > h3 {
     font-size: 12px;
   }
 }
