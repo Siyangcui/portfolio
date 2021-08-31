@@ -28,7 +28,11 @@ footer {
 }
 
 .background-image {
-  background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgb(20, 20, 20)),
+  background-image: linear-gradient(
+      to top,
+      rgba(46, 47, 48, 0),
+      rgb(20, 20, 20)
+    ),
     url(assets/t2.jpg);
   background-size: cover;
   background-position: center;
