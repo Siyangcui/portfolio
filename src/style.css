@@ -678,15 +678,13 @@ a:hover {
   display: flex;
   /* justify-content: center;
   flex-direction: row; */
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   text-align: center;
   justify-content: center;
 }
 
 .contact-me-article {
   width: 100%;
-  padding: 0%;
-  margin: 5%;
   padding: 5%;
 }
 
