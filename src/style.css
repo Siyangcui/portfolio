@@ -636,3 +636,70 @@ a:hover {
     font-size: 12px;
   }
 }
+
+/* Contact Me Page */
+
+.contact-body-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid white; */
+}
+
+.contact-me-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid white; */
+  padding: 0;
+  margin: 0;
+  width: 80%;
+}
+
+.contact-me-container {
+  padding: 20px;
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-me-social {
+  padding: 30px;
+  display: flex;
+}
+
+.contact-me-blur {
+  margin: 20px;
+  width: 80%;
+  display: flex;
+  /* justify-content: center;
+  flex-direction: row; */
+  padding-bottom: 50px;
+  text-align: center;
+  justify-content: center;
+}
+
+.contact-me-article {
+  width: 100%;
+  padding: 0%;
+  margin: 5%;
+  padding: 5%;
+}
+
+.background-image-contact {
+  background-image: linear-gradient(
+      to top,
+      rgba(46, 47, 48, 0),
+      rgb(20, 20, 20)
+    ),
+    url(assets/t2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
