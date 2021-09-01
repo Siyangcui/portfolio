@@ -21,12 +21,15 @@ footer {
   padding: 10px;
 }
 
+/* Font */
+
 @font-face {
   font-family: "firago";
   src: url("/assets/fonts/FiraGO-Regular.woff") format("woff"),
     url("/assets/fonts/FiraGO-Regular.woff2") format("woff2");
 }
 
+/* Background Image */
 .background-image {
   background-image: linear-gradient(
       to top,
@@ -62,6 +65,7 @@ a {
   z-index: 1;
 }
 
+/* Navigation bar Opacity */
 .nav-bar:hover {
   opacity: 100%;
 }
@@ -101,7 +105,7 @@ a {
 .nav-link li {
   list-style: none;
 }
-
+/* Nav Link Styling */
 .nav-link li a {
   text-decoration: none;
   color: white;
@@ -111,11 +115,15 @@ a {
   font-size: 18px;
 }
 
+/* Logo responsiveness */
+
 @media screen and (max-width: 660px) {
   .nav-bar-logo {
     height: 3rem;
   }
 }
+
+/* Nav Link Responsiveness */
 
 @media only screen and (max-width: 415px) {
   .nav-link li a {
@@ -151,6 +159,8 @@ a {
     opacity: 1;
   }
 }
+
+/* Delayed FadeIn animation on home page for name, role, socials */
 
 .index-name,
 .role,
@@ -219,6 +229,7 @@ a {
   animation-delay: 3.5s;
 }
 
+/* Targets each letter of my name to center and align each letter and change into inline */
 .personal {
   display: inline;
   height: 10em;
@@ -233,11 +244,15 @@ h1 {
   font-size: 500%;
 }
 
+/* for h1 responsiveness */
+
 @media only screen and (max-width: 800px) {
   h1 {
     font-size: 200%;
   }
 }
+
+/* Container for social icons on index.html */
 
 .social-container {
   display: flex;
@@ -246,6 +261,9 @@ h1 {
   margin: 0px;
   padding: 0px;
 }
+
+/* Individual container for each social link */
+
 .socials {
   padding: 0;
   margin: 3px;
@@ -348,6 +366,8 @@ article {
   margin-bottom: 0.5rem;
 }
 
+/* glow effect on each element that is targeted */
+
 .index-name,
 .role,
 .socials,
@@ -376,6 +396,8 @@ mouse hover zoom effect */
 .image-wrapper img:hover {
   transform: scale(1.2);
 }
+
+/* blog seperator above each blog styled as lights */
 
 .lights {
   border: 1px solid white;
@@ -465,6 +487,8 @@ mouse hover zoom effect */
   padding-top: 10px;
 }
 
+/* profile photo on about me page  */
+
 .toprow-photo > img {
   display: flex;
   max-width: 30%;
@@ -472,6 +496,8 @@ mouse hover zoom effect */
   align-self: center;
   clip-path: circle(50% at 50% 50%);
 }
+
+/* Responsiveness on profile photo */
 
 @media only screen and (max-width: 750px) {
   .toprow-photo > img {
@@ -488,6 +514,8 @@ mouse hover zoom effect */
     margin: 0;
   }
 }
+
+/* formatting on columns on about me page */
 
 .leftcolumn,
 .rightcolumn {
@@ -536,9 +564,13 @@ a:hover {
   align-items: flex-start;
 }
 
+/* set block display to inline */
+
 .leftcolumn > section > article > ul > li {
   display: inline-block;
 }
+
+/* resize of content on about me page */
 
 @media only screen and (max-width: 750px) {
   .leftcolumn > section > article > ul > li,
@@ -556,6 +588,8 @@ a:hover {
   padding-top: 35px;
 }
 
+/* Container for all project containers */
+
 .project-wrapper {
   /* border: 1px solid white; */
   width: 80%;
@@ -567,6 +601,8 @@ a:hover {
   padding: 10px;
 }
 
+/* Individual project container */
+
 .project-container {
   text-align: center;
   border: 1px solid white;
@@ -577,6 +613,8 @@ a:hover {
   background-color: rgba(20, 20, 20, 0.7);
   box-shadow: 0 0 7px #fff, 0 0 10px rgb(193, 214, 73);
 }
+
+/* Project Icon */
 
 .project-icon {
   transition: transform 1s;
