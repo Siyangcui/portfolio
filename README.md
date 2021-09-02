@@ -158,7 +158,7 @@ Target audiences for this portfolio are recruiters and prospective employers in 
 
 ![Ipad Wireframe](./docs/Wireframe-ipad.png)
 
-##Revision##
+**Revision**
 
 Revised Contact Page to add message above Social Links.
 
