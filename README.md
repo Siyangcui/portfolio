@@ -39,6 +39,8 @@ The nav bar is also centered using flexbox to add aesthetics via symmetry. an `i
 
 The Logo resides in the nav bar as mentioned above, its initial state of `opacity` is set to 0%. however there is an animation effect based on `opacity` with an `animation-iteration-count: infinite` that continously cycles the animation forever. This create the "breathing" effect on the logo which brings the logo's opacity from 0% to 100% then back down to 0%. This was aimed at drawing the audiences attention when viewing the website as there is no direct "home" button anywhere as the Logo is hyperlinked to the home page. This also leads the user to hover over the logo which ultimately will trigger the nav bar `:hover` effect in the aforementioned feature.
 
+![Logo Breathe Effect](./docs/Logo-breathe.gif)
+
 - **Background Image**
 
 Background Image set to `cover`, `center`, `no-repeat` and `fixed` which sits the background image properly to cover the viewport without repeating. also the `fixed` property fixes the background image when scrolling to prevent scrolling out of view.
@@ -60,9 +62,13 @@ The content on the home page provides a quick capture of my name, my position an
 As a web page loads with no content on the page, audience's focus will wander looking for elements to observe. To utilise this behaviour, a delayed `animation` effect has been applied to the content of the home page to allow the audiences to snap their focus on the content.
 This was achieved by creating seperate containers for each letter of the name, whilst having seperate containers for the role and socials to allow for the delayed animation to target each element seperately.
 
+![Logo Breathe Effect](./docs/Delay-effect.gif)
+
 - **Hover Effect on Social Icons - Home Page**
 
 A `:hover` and `transform:scale` effect has been implemented on the social icons on the main page to add interaction to the interface. An `:after` pseudo element also incorporated to label each icon for clarity. Each link ultimately links to the corresponding social sites.
+
+![Logo Breathe Effect](./docs/Social-hover.gif)
 
 - **About Me Page - Bullet Points**
 
@@ -85,6 +91,8 @@ The project page was kept simple to display containers that would house all my p
 
 Icons for each project has a `:hover` effect to once again add interactivity. The icon image is hyperlinked to the project site.
 
+![Logo Breathe Effect](./docs/Project-icon.gif)
+
 - **Blog Page - Layout**
 
 Using flexbox to achieve symmetry for content within main body container.
@@ -98,6 +106,8 @@ Each post has a seperator designed in a form of a neon light thats shining over 
 Each image is wrapped in a container with a `overflow: hidden` property and value set. This is to maintain consistent size of overly large images disorientating the layout of the blog page with the width of the container set at 65% of the parent.
 
 Each image that is wrapped inside the image wrapper container has a `:hover` pseudo element tied to a `transform:scale (1.2)` effect. this working in conjunction with the image wrapper container zooms in the image providing audience immersion whilst not disrupting the overall layout of the webpage.
+
+![Logo Breathe Effect](./docs/Blog-image.gif)
 
 - **Contact Page - Layout and Design**
 
