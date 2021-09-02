@@ -1,6 +1,6 @@
 ## **Portfolio Website - Si Yang (Justin) Cui**
 
-**Portfolio: [Portfolio Link](https://jovial-lumiere-7b00dd.netlify.app/projects.html)**
+**Portfolio: [Portfolio Link](https://friendly-lalande-647c10.netlify.app)**
 
 **Github Repo: [Github Repo Link](https://github.com/Siyangcui/portfolio_T1A2)**
 
