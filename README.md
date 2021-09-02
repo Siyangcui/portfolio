@@ -124,7 +124,7 @@ Each icon links out to their respective websites, the email icon is a `mailto:` 
 
 ![sitemap](./docs/Sitemap.png)
 
-### **Screenshots**
+### **Screenshots - Browser**
 
 ---
 
@@ -134,19 +134,63 @@ Each icon links out to their respective websites, the email icon is a `mailto:` 
 
 #### **About**
 
-![About Screen](./docs/About-screen.png)
+![About Screen - Web Browser](./docs/About-screen.png)
 
 #### **Projects**
 
-![Project Screen](./docs/Project-screen.png)
+![Project Screen - Web Browser](./docs/Project-screen.png)
 
 #### **Blog**
 
-![Blog Screen](./docs/Blog-screen.png)
+![Blog Screen - Web Browser](./docs/Blog-screen.png)
 
 #### **Contact**
 
-![Contact Screen](./docs/Contact-screen.png)
+![Contact Screen - Web Browser](./docs/Contact-screen.png)
+
+### **Screenshots - Ipad**
+
+#### **Home**
+
+![Home Screen - Ipad](./docs/Home-ipad.png)
+
+#### **About**
+
+![About Screen - Ipad](./docs/About-ipad.png)
+
+#### **Project**
+
+![Project Screen - Ipad](./docs/Project-ipad.png)
+
+#### **Blog**
+
+![Blog Screen - Ipad](./docs/Blog-ipad.png)
+
+#### **Contact**
+
+![Contact Screen - Ipad](./docs/Contact-ipad.png)
+
+### **Screenshots - IphoneX**
+
+#### **Home**
+
+![Home Screen - IphoneX](./docs/Home-iphonex.png)
+
+#### **About**
+
+![About Screen - IphoneX](./docs/About-iphonex.png)
+
+#### **Project**
+
+![Project Screen - IphoneX](./docs/Projects-iphonex.png)
+
+#### **Blog**
+
+![Blog Screen - IphoneX](./docs/Blog-iphonex.png)
+
+#### **Contact**
+
+![Contact Screen - IphoneX](./docs/Contact-iphonex.png)
 
 ### **Target Audiences**
 
@@ -185,4 +229,4 @@ Revised Contact Page to add message above Social Links and also a light bar.
 - Inkscape
 - Balsamiq Wireframes
 - Git and Github
-- Github Pages
+- Netlify
