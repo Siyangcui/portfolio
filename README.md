@@ -8,9 +8,13 @@
 
 ### **Purpose**
 
+---
+
 Currently a developer in training with previous experience in the IT industry, this portfolio aims to display my personality, skills and past experiences to prospective employers. This website also provides acts as a CI platform that will allow me to add to and refactor old code as i learn new things during the course.
 
 ### **Functionality and Features of the website**
+
+---
 
 - **Head Components**
 
@@ -116,9 +120,13 @@ Each icon links out to their respective websites, the email icon is a `mailto:` 
 
 ### **Sitemap**
 
+---
+
 ![sitemap](./docs/Sitemap.png)
 
 ### **Screenshots**
+
+---
 
 #### **Home**
 
@@ -142,9 +150,13 @@ Each icon links out to their respective websites, the email icon is a `mailto:` 
 
 ### **Target Audiences**
 
+---
+
 Target audiences for this portfolio are recruiters and prospective employers in the Technology industry or Developers. The website is aimed at showcasing my capabilities as a developer by incorporating technical foundations with my personality and the design aspect to deliver an immersive and representative image of my persona.
 
 ### **Wireframes**
+
+---
 
 **Browser**
 
@@ -165,6 +177,8 @@ Revised Contact Page to add message above Social Links.
 ![Contact Me Page Revision](./docs/Wireframe-contact-revision.png)
 
 ### **Technology Stack Used**
+
+---
 
 - HTML
 - CSS
