@@ -116,7 +116,9 @@ Each icon links out to their respective websites, the email icon is a `mailto:` 
 
 ## **Sitemap**
 
-![sitemap](./docs/Sitemap.jpg)
+![sitemap](./docs/Sitemap.png)
+
+## **Screenshots**
 
 Screenshots
 Target audience
