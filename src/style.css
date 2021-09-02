@@ -344,7 +344,8 @@ main {
   text-align: center;
 }
 /* Blog article main container */
-article {
+.blog-body-container > article,
+.blog-body-container > article > section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -480,9 +481,9 @@ mouse hover zoom effect */
   background-color: rgba(20, 20, 20, 0.7);
 }
 
-.toprow-me > section > article > h3,
-.leftcolumn > section > article > h3,
-.rightcolumn > section > article > h3 {
+.toprow-me > article > section > header > h3,
+.leftcolumn > article > section > header > h3,
+.rightcolumn > article > section > header h3 {
   padding-bottom: 10px;
   padding-top: 10px;
 }
@@ -524,13 +525,16 @@ mouse hover zoom effect */
   height: auto;
   margin: 5px;
   padding: 0px;
-  display: inline;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(20, 20, 20, 0.7);
   line-height: 20px;
 }
 
 /* Text styling on Coder Academy hyper link */
-.toprow-me > article > a {
+.toprow-me > article > section > a {
   text-decoration: none;
   color: white;
 }
@@ -544,15 +548,15 @@ a:hover {
   text-decoration: underline;
 }
 
-.toprow-me > article > ul,
-.leftcolumn > section > article > ul,
-.rightcolumn > section > article > ul {
+.toprow-me > article > section > ul,
+.leftcolumn > article > section > ul,
+.rightcolumn > article > section > ul {
   list-style: none;
 }
 
 /* Styling and layout of the 2 columns on about me page */
-.leftcolumn > section > article,
-.rightcolumn > section > article {
+.leftcolumn > article > section,
+.rightcolumn > article > section {
   /* border: 1px solid white; */
   width: 100%;
   height: auto;
@@ -566,15 +570,15 @@ a:hover {
 
 /* set block display to inline */
 
-.leftcolumn > section > article > ul > li {
+.leftcolumn > article > section > ul > li {
   display: inline-block;
 }
 
 /* resize of content on about me page */
 
 @media only screen and (max-width: 750px) {
-  .leftcolumn > section > article > ul > li,
-  .rightcolumn > section > article > ul > li,
+  .leftcolumn > article > section > ul > li,
+  .rightcolumn > article > section > ul > li,
   .toprow-me > article > * {
     font-size: 12px;
   }
@@ -700,4 +704,9 @@ a:hover {
   background-repeat: no-repeat;
   background-attachment: fixed;
   min-height: 100vh;
+}
+
+.contact-footer {
+  position: absolute;
+  top: 95%;
 }
