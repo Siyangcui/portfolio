@@ -160,7 +160,7 @@ Target audiences for this portfolio are recruiters and prospective employers in 
 
 **Browser**
 
-![Browser Wireframe](./docs/Wireframe-browser.png)
+![Browser Wireframe](./docs/wireframe-browser.png)
 
 **Mobile**
 
