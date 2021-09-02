@@ -6,11 +6,11 @@
 
 ---
 
-**Purpose**
+### **Purpose**
 
 Currently a developer in training with previous experience in the IT industry, this portfolio aims to display my personality, skills and past experiences to prospective employers. This website also provides acts as a CI platform that will allow me to add to and refactor old code as i learn new things during the course.
 
-## **Functionality and Features of the website**
+### **Functionality and Features of the website**
 
 - **Head Components**
 
@@ -114,12 +114,61 @@ Each image that is wrapped inside the image wrapper container has a `:hover` pse
 This page is the most simplest of all as its purpose is not to distract the audience preventing them from accessing the methods of contact. As such, no animations or user interactions were designed, just a simple light bar once again to keep the theme of the website aligned.
 Each icon links out to their respective websites, the email icon is a `mailto:` href which will open up the audience's mail application when clicked. A place holder email has been set currently.
 
-## **Sitemap**
+### **Sitemap**
 
 ![sitemap](./docs/Sitemap.png)
 
-## **Screenshots**
+### **Screenshots**
 
-Screenshots
-Target audience
-Tech stack (e.g. html, css, deployment platform, etc)
+#### **Home**
+
+![Home Screen](./docs/Home-screen.png)
+
+#### **About**
+
+![About Screen](./docs/About-screen.png)
+
+#### **Projects**
+
+![Project Screen](./docs/Project-screen.png)
+
+#### **Blog**
+
+![Blog Screen](./docs/Blog-screen.png)
+
+#### **Contact**
+
+![Contact Screen](./docs/Contact-screen.png)
+
+### **Target Audiences**
+
+Target audiences for this portfolio are recruiters and prospective employers in the Technology industry or Developers. The website is aimed at showcasing my capabilities as a developer by incorporating technical foundations with my personality and the design aspect to deliver an immersive and representative image of my persona.
+
+### **Wireframes**
+
+**Browser**
+
+![Browser Wireframe](./docs/Wireframe-browser.png)
+
+**Mobile**
+
+![Phone Wireframe](./docs/Wireframe-phone.png)
+
+**Ipad**
+
+![Ipad Wireframe](./docs/Wireframe-ipad.png)
+
+##Revision##
+
+Revised Contact Page to add message above Social Links.
+
+![Contact Me Page Revision](./docs/Wireframe-contact-revision.png)
+
+### **Technology Stack Used**
+
+- HTML
+- CSS
+- Inkscape
+- Balsamiq Wireframes
+- Git and Github
+- Github Pages
