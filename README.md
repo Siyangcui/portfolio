@@ -172,7 +172,7 @@ Target audiences for this portfolio are recruiters and prospective employers in 
 
 **Revision**
 
-Revised Contact Page to add message above Social Links.
+Revised Contact Page to add message above Social Links and also a light bar.
 
 ![Contact Me Page Revision](./docs/Wireframe-contact-revision.png)
 
