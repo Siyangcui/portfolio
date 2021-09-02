@@ -190,7 +190,7 @@ Each icon links out to their respective websites, the email icon is a `mailto:` 
 
 #### **Contact**
 
-![Contact Screen - IphoneX](./docs/Contact-iphonex.png)
+![Contact Screen - IphoneX](./docs/contact-iphonex.png)
 
 ### **Target Audiences**
 
