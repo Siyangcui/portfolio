@@ -1,3 +1,15 @@
+commit 361d7a70658a37494c673caa21a9e8e0b3e9c715
+Author: Si Yang Cui <siyangcui@gmail.com>
+Date:   Fri Sep 3 12:04:11 2021 +1000
+
+    added Future Improvements to README.md
+
+commit 84c07b7180b9573cb6ffed089c362e607bb03b85
+Author: Si Yang Cui <siyangcui@gmail.com>
+Date:   Fri Sep 3 11:39:12 2021 +1000
+
+    updated portfolio link due to source code change, created new git log
+
 commit f43a272d3edc1de1e729c7cbade68f19ff5e4842
 Author: Si Yang Cui <siyangcui@gmail.com>
 Date:   Fri Sep 3 11:31:52 2021 +1000
