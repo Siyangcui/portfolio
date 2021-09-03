@@ -1,3 +1,27 @@
+commit 8eebe97632379389113567c7ac85dfdf1e02b6ba
+Author: Si Yang Cui <siyangcui@gmail.com>
+Date:   Fri Sep 3 09:44:20 2021 +1000
+
+    fixed spelling on readme image path link
+
+commit 7348c0ba8617e2af24dce3e55ec1a8f9ccaacad1
+Author: Si Yang Cui <siyangcui@gmail.com>
+Date:   Fri Sep 3 09:38:42 2021 +1000
+
+    added iphone and ipad screenshots and updated Tech stack
+
+commit 3866a56586b8095986b1092dc2db0a084a848506
+Author: Si Yang Cui <siyangcui@gmail.com>
+Date:   Thu Sep 2 18:25:50 2021 +1000
+
+    incorrect portfolio link
+
+commit d377299cce21a7b08a1bf5d14545e1032e719741
+Author: Si Yang Cui <siyangcui@gmail.com>
+Date:   Thu Sep 2 18:22:51 2021 +1000
+
+    created gitlog.txt
+
 commit 95f8f126337d565674ea5606ae74533fbe72bf71
 Author: Si Yang Cui <siyangcui@gmail.com>
 Date:   Thu Sep 2 18:21:16 2021 +1000
