@@ -1,3 +1,27 @@
+commit f43a272d3edc1de1e729c7cbade68f19ff5e4842
+Author: Si Yang Cui <siyangcui@gmail.com>
+Date:   Fri Sep 3 11:31:52 2021 +1000
+
+    updated SRI hash, additional commentary, fixed padding on headings and removed some unecessary html
+
+commit 593bd8d303551478189eab00c5a148225a4a5ab3
+Author: Si Yang Cui <siyangcui@gmail.com>
+Date:   Fri Sep 3 10:14:30 2021 +1000
+
+    added additional software experience to about me page
+
+commit ad4b1cf8e57fdff2acd148376e7e5630a1532c46
+Author: Si Yang Cui <siyangcui@gmail.com>
+Date:   Fri Sep 3 10:12:52 2021 +1000
+
+    additional comments
+
+commit b6336854bd511f7b411187d92be155b69cd6ae36
+Author: Si Yang Cui <siyangcui@gmail.com>
+Date:   Fri Sep 3 10:11:33 2021 +1000
+
+    added additional comments
+
 commit 8eebe97632379389113567c7ac85dfdf1e02b6ba
 Author: Si Yang Cui <siyangcui@gmail.com>
 Date:   Fri Sep 3 09:44:20 2021 +1000

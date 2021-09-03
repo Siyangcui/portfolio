@@ -1,6 +1,6 @@
 ## **Portfolio Website - Si Yang (Justin) Cui**
 
-**Portfolio: [Portfolio Link](https://friendly-lalande-647c10.netlify.app)**
+**Portfolio: [Portfolio Link](https://quizzical-bose-6c66ca.netlify.app)**
 
 **Github Repo: [Github Repo Link](https://github.com/Siyangcui/portfolio_T1A2)**
 
