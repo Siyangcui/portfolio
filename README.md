@@ -233,6 +233,8 @@ Revised Contact Page to add message above Social Links and also a light bar.
 
 ### **Future Improvements**
 
+---
+
 Aim to refactor code and design of portfolio page to ensure better UX and SEO (aiming for even more simple)
 
 Some current ideas include:
