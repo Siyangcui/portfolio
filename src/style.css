@@ -21,6 +21,7 @@ footer {
   padding: 10px;
 }
 
+/* R2 Font Styling */
 /* Font */
 
 @font-face {
@@ -29,7 +30,7 @@ footer {
     url("/assets/fonts/FiraGO-Regular.woff2") format("woff2");
 }
 
-/* Background Image */
+/* R3 Background Image */
 .background-image {
   background-image: linear-gradient(
       to top,
@@ -43,11 +44,13 @@ footer {
   background-attachment: fixed;
 }
 
+/* R2 Anchor Styling */
+
 a {
   text-decoration: none;
 }
 
-/* Navigation bar*/
+/*R2 Navigation bar*/
 
 .nav-bar {
   padding: 0px;
@@ -65,12 +68,12 @@ a {
   z-index: 1;
 }
 
-/* Navigation bar Opacity */
+/* R2 Navigation bar Opacity */
 .nav-bar:hover {
   opacity: 100%;
 }
 
-/* Navigation bar logo*/
+/* R3 Navigation bar logo resize, opacity set and animation applied */
 .nav-bar-logo {
   height: 5rem;
   width: auto;
@@ -94,7 +97,7 @@ a {
   }
 }
 
-/* Navigation bar unordered list*/
+/* R2 Navigation bar unordered list*/
 .nav-link ul {
   display: flex;
   margin: 0;
@@ -105,7 +108,7 @@ a {
 .nav-link li {
   list-style: none;
 }
-/* Nav Link Styling */
+/* R2 Nav Link Styling */
 .nav-link li a {
   text-decoration: none;
   color: white;
@@ -115,7 +118,7 @@ a {
   font-size: 18px;
 }
 
-/* Logo responsiveness */
+/* R3 Logo responsiveness */
 
 @media screen and (max-width: 660px) {
   .nav-bar-logo {
@@ -123,7 +126,7 @@ a {
   }
 }
 
-/* Nav Link Responsiveness */
+/* R2 Nav Link Responsiveness */
 
 @media only screen and (max-width: 415px) {
   .nav-link li a {
@@ -149,7 +152,7 @@ a {
   padding: 0px;
 }
 
-/* Fade in effects for name, profession and professional links*/
+/* R2 Fade in effects for name, profession and professional links*/
 
 @keyframes fading {
   from {
@@ -160,7 +163,7 @@ a {
   }
 }
 
-/* Delayed FadeIn animation on home page for name, role, socials */
+/* R2 Delayed FadeIn animation on home page targetting letter of each name, role, socials */
 
 .index-name,
 .role,
@@ -229,7 +232,7 @@ a {
   animation-delay: 3.5s;
 }
 
-/* Targets each letter of my name to center and align each letter and change into inline */
+/* R2 Targets each letter of my name to center and align each letter and change into inline (retrospectivelly could have just used <span>... a lesson learnt! */
 .personal {
   display: inline;
   height: 10em;
@@ -244,7 +247,7 @@ h1 {
   font-size: 500%;
 }
 
-/* for h1 responsiveness */
+/* R2 for h1 responsiveness */
 
 @media only screen and (max-width: 800px) {
   h1 {
@@ -252,7 +255,7 @@ h1 {
   }
 }
 
-/* Container for social icons on index.html */
+/* R3 Container for social icons on index.html */
 
 .social-container {
   display: flex;
@@ -262,7 +265,7 @@ h1 {
   padding: 0px;
 }
 
-/* Individual container for each social link */
+/* R3 Individual container for each social link */
 
 .socials {
   padding: 0;
@@ -276,14 +279,14 @@ h1 {
 .index-name {
   display: inline;
 }
-/* hover effect to enlarge social icons on main page*/
+/* R3 hover effect to enlarge social icons on main page*/
 .socials:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-/*after effect to add text under social icon on main page*/
+/* R2 and R3 :after effect to add text under social icon on main page*/
 #github::after {
   content: "Github";
   position: absolute;
@@ -335,7 +338,7 @@ main {
   padding: 0px;
   position: relative;
 }
-/* Title of the blog */
+/* R2 Title of the blog */
 .splash {
   height: 5rem;
   width: 100%;
@@ -355,6 +358,8 @@ main {
   margin: 1rem;
 }
 
+/* R3 to set max width of images to be 70% of parent so it doesnt blow out of proportion */
+
 .blog-image {
   height: auto;
   width: 70%;
@@ -367,7 +372,7 @@ main {
   margin-bottom: 0.5rem;
 }
 
-/* glow effect on each element that is targeted */
+/* R2 glow effect on each text element that is targeted to apply text-shadow */
 
 .index-name,
 .role,
@@ -377,7 +382,7 @@ main {
   text-shadow: 0 0 7px #fff, 0 0 10px rgb(193, 214, 73),
     0 0 21px rgb(214, 250, 11);
 }
-/* image wrapper */
+/* R3 image wrapper to wrap image inside container to prevent overflow working in conjunction with :hover effect to enlarge image */
 .image-wrapper {
   width: 65%;
   height: auto;
@@ -386,8 +391,8 @@ main {
   /* box-shadow: 0 0 7px #fff, 0 0 10px rgb(193, 214, 73),
     0 0 21px rgb(214, 250, 11); */
 }
-/* 
-mouse hover zoom effect */
+/* R3
+mouse hover zoom effect to enlarge image inside wrapper with overflow: hidden to prevent distortion of layout */
 .image-wrapper img {
   width: 100%;
   height: auto;
@@ -398,7 +403,7 @@ mouse hover zoom effect */
   transform: scale(1.2);
 }
 
-/* blog seperator above each blog styled as lights */
+/* R2/R3? blog seperator above each blog styled as neon lights for theme */
 
 .lights {
   border: 1px solid white;
@@ -412,6 +417,7 @@ mouse hover zoom effect */
     0 0 48px rgb(214, 250, 11);
 }
 
+/* R2 Semi opaque background applied to content of blog to allow for readability */
 .blog-content {
   text-align: center;
   width: 75%;
@@ -421,6 +427,7 @@ mouse hover zoom effect */
   text-align: center;
 }
 
+/* R2 / R3 Rezise of blog image and content on responsive design */
 @media only screen and (max-width: 600px) {
   .image-wrapper {
     width: 100%;
@@ -468,7 +475,7 @@ mouse hover zoom effect */
   justify-content: center;
 }
 
-/* Me article container */
+/* R2 Me article container to align content to left hand side */
 .toprow-me > article {
   /* border: 1px solid white; */
   width: 100%;
@@ -482,14 +489,16 @@ mouse hover zoom effect */
   background-color: rgba(20, 20, 20, 0.7);
 }
 
-.toprow-me > article > section > header > h3,
-.leftcolumn > article > section > header > h3,
-.rightcolumn > article > section > header h3 {
-  padding-bottom: 10px;
-  padding-top: 10px;
+.toprow-me > article > section > header > h2,
+.leftcolumn > article > section > header > h2,
+.rightcolumn > article > section > header h2,
+.leftcolumn > article > header > h2,
+.rightcolumn > article > header h2 {
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
-/* profile photo on about me page  */
+/* R3 profile photo on about me page with a clip-path applied to have a semi round image */
 
 .toprow-photo > img {
   display: flex;
@@ -499,7 +508,7 @@ mouse hover zoom effect */
   clip-path: circle(50% at 50% 50%);
 }
 
-/* Responsiveness on profile photo */
+/* R3 Responsiveness on profile photo to reduce in size and center */
 
 @media only screen and (max-width: 750px) {
   .toprow-photo > img {
@@ -517,7 +526,7 @@ mouse hover zoom effect */
   }
 }
 
-/* formatting on columns on about me page */
+/* R2 formatting on columns on about me page */
 
 .leftcolumn,
 .rightcolumn {
@@ -534,7 +543,7 @@ mouse hover zoom effect */
   box-sizing: border-box;
 }
 
-/* Text styling on Coder Academy hyper link */
+/* R2 Text styling on Coder Academy hyper link */
 .toprow-me > article > section > a {
   text-decoration: none;
   color: white;
@@ -549,6 +558,7 @@ a:hover {
   text-decoration: underline;
 }
 
+/* R2 Formatting on lists on about me page to remove vanilla bullet points */
 .toprow-me > article > section > ul,
 .leftcolumn > article > section > ul,
 .rightcolumn > article > section > ul {
@@ -569,13 +579,13 @@ a:hover {
   align-items: flex-start;
 }
 
-/* set block display to inline */
+/* R2 set block display to inline */
 
 .leftcolumn > article > section > ul > li {
   display: inline-block;
 }
 
-/* resize of content on about me page */
+/* R2 resize of content on about me page */
 
 @media only screen and (max-width: 750px) {
   .leftcolumn > article > section > ul > li,
@@ -606,7 +616,7 @@ a:hover {
   padding: 10px;
 }
 
-/* Individual project container */
+/*  R2 Individual project container to apply formatting to size and color to project container box for readability */
 
 .project-container {
   text-align: center;
@@ -619,7 +629,7 @@ a:hover {
   box-shadow: 0 0 7px #fff, 0 0 10px rgb(193, 214, 73);
 }
 
-/* Project Icon */
+/* R3 Project Icon hover effect and project box formatting */
 
 .project-icon {
   transition: transform 1s;

@@ -8,7 +8,7 @@
     <link
       rel="stylesheet"
       href="style.css"
-      integrity="sha384-UwjebdKGZ5e41aIayNxUrJTCUIGLvBxX6JnBmGra1uG1g9yN17CFh906sswFcypl"
+      integrity="sha384-4v3lGpGlLsYw1qfQJN7ndQz15D+QEOD9b5JmW9IXXh32QV+DPyE4AT9SGZ64PbyO"
     />
     <link rel="icon" href="./assets/jc-logo.png" type="image/x-icon" />
     <meta name="Author" content="Justin Cui" />
@@ -16,8 +16,9 @@
   </head>
   <!-- Body -->
   <body>
-    <!-- Background Image -->
+    <!-- R3 Background Image - to encapsulate content via CSS set to fixed / no repeat / centered -->
     <div class="background-image">
+      <!-- R2 Nav Bar Component that houses 2 lists and the logo in between -->
       <!-- Navigation Bar container -->
       <nav class="nav-bar">
         <!-- Left Navigation Links -->
@@ -30,6 +31,7 @@
             <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
           </ul>
         </div>
+        <!-- R3 Logo (image) component that doubles as a hyperlink to home (index.html) -->
         <!-- The JC Logo -->
         <a href="./index.html" class="nav-logo-link"
           ><img src="assets/jc-logo.png" class="nav-bar-logo" alt="JC-logo"
@@ -50,19 +52,20 @@
       <!-- Main Body Container -->
       <main>
         <div class="about-body-container">
+          <!-- Profile Photo Container that works with CSS to "flex-end" my photo to the right hand side of the container -->
           <!-- Top row container to hold Profile photo -->
           <div class="top-row-container">
+            <!-- R3 Photo that has a "circle-path" applied in CSS to round out sides!! -->
             <div class="toprow-photo">
               <img src="./assets/profile1.jpg" alt="profile" />
             </div>
-            <!-- Container to house about me -->
+            <!-- R2 Container to house about me -->
             <div class="toprow-me">
               <article>
+                <header>
+                  <h2>ME</h2>
+                </header>
                 <section>
-                  <header>
-                    <h3>ME</h3>
-                  </header>
-                  <br />
                   <p>
                     Hi, i'm Justin and i am currently enrolled in a fast track
                     Full Stack Developer Course at
@@ -94,7 +97,7 @@
                     to work on multiple projects, large and small ranging from :
                   </p>
                   <br />
-                  <!-- Custom bullet points with glow effect to be applied via text-shadow -->
+                  <!-- R2 and R3 Custom bullet points with glow effect to be applied via text-shadow -->
                   <ul>
                     <li><span class="bullet">&raquo;</span> Data Cleanups</li>
                     <li>
@@ -125,16 +128,15 @@
               </article>
             </div>
           </div>
-          <!-- Columns -->
+          <!-- R2 Columns -->
           <div class="columns">
             <!-- Left Column -->
             <div class="leftcolumn">
               <article>
+                <header>
+                  <h2>Languages</h2>
+                </header>
                 <section>
-                  <header>
-                    <h3>Languages</h3>
-                  </header>
-                  <br />
                   <ul>
                     <li><span class="bullet">&raquo;</span> HTML</li>
                     <li><span class="bullet">&raquo;</span> CSS</li>
@@ -144,9 +146,9 @@
 
                 <section>
                   <header>
-                    <h3>Software</h3>
+                    <h2>Software</h2>
                   </header>
-                  <br />
+
                   <ul>
                     <li><span class="bullet">&raquo;</span> JIRA</li>
                     <li>
@@ -169,52 +171,48 @@
             <!-- Right Column -->
             <div class="rightcolumn">
               <article>
+                <header>
+                  <h2>Experiences</h2>
+                </header>
                 <section>
-                  <header>
-                    <h3>Experiences</h3>
-                  </header>
-                  <br />
                   <ul>
                     <li>
                       <span class="bullet">&raquo;</span> Application Support
-                      Specialist <time>Aug 2020 - July 2021</time>
+                      Specialist : Aug 2020 - July 2021
                     </li>
                     <li>
-                      <span class="bullet">&raquo;</span> System Administrator
-                      <time>Jan 2017 - Aug 2020</time>
+                      <span class="bullet">&raquo;</span> System Administrator :
+                      Jan 2017 - Aug 2020
                     </li>
                   </ul>
                 </section>
                 <section>
                   <header>
-                    <h3>Projects</h3>
+                    <h2>Projects</h2>
                   </header>
-                  <br />
                   <ul>
                     <li>
                       <span class="bullet">&raquo;</span> Project Implementation
-                      and UAT - Core PMS system Upgrade |
-                      <time>Jul 2017 - Apr 2018</time>
+                      and UAT - Core PMS system Upgrade | Jul 2017 - Apr 2018
                     </li>
                     <li>
                       <span class="bullet">&raquo;</span> ERP System Phase 1 -
-                      ERP Tender | <time>Jun 2018 - Jan 2019</time>
+                      ERP Tender | Jun 2018 - Jan 2019
                     </li>
                     <li>
                       <span class="bullet">&raquo;</span> ERP System Phase 2 -
-                      Documentation and System Rollup Testing |
-                      <time>Jan 2019 - Oct 2019</time> - DNC
+                      Documentation and System Rollup Testing | Jan 2019 - Oct
+                      2019 - DNC
                     </li>
                     <li>
                       <span class="bullet">&raquo;</span> Three Company Merger -
-                      System documentation and process scope |
-                      <time>May 2020 - Sep 2020</time>
+                      System documentation and process scope | May 2020 - Sep
+                      2020
                     </li>
                     <li>
                       <span class="bullet">&raquo;</span> System Migration from
                       Legacy to New - Test / Scope / Rollup / Training / Support
-                      |
-                      <time>Sept 2020 - Jul 2021</time>
+                      | Sept 2020 - Jul 2021
                     </li>
                   </ul>
                 </section>

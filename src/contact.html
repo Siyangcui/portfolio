@@ -8,16 +8,17 @@
     <link
       rel="stylesheet"
       href="style.css"
-      integrity="sha384-UwjebdKGZ5e41aIayNxUrJTCUIGLvBxX6JnBmGra1uG1g9yN17CFh906sswFcypl"
+      integrity="sha384-4v3lGpGlLsYw1qfQJN7ndQz15D+QEOD9b5JmW9IXXh32QV+DPyE4AT9SGZ64PbyO"
     />
-    <link rel="icon" href="./assets/jc-logo.png" type="image/x-icon" integrity="sha384-fjI5O6i5h0bfaw24ZGhLYUpUqDuhHNUyKTx/ad0L17rBOwkoZBK5uD3JBPkt3g8l" />
+    <link rel="icon" href="./assets/jc-logo.png" type="image/x-icon" />
     <meta name="Author" content="Justin Cui" />
     <meta name="Description" content="Justin Cui X Portfolio Website" />
   </head>
   <!-- Body -->
   <body>
-    <!-- Background Image -->
+    <!-- R3 Background Image - to encapsulate content via CSS set to fixed / no repeat / centered -->
     <div class="background-image-contact">
+      <!-- R2 Nav Bar Component that houses 2 lists and the logo in between -->
       <!-- Navigation Bar container -->
       <nav class="nav-bar">
         <!-- Left Navigation Links -->
@@ -30,6 +31,7 @@
             <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
           </ul>
         </div>
+        <!-- R3 Logo (image) component that doubles as a hyperlink to home (index.html) -->
         <!-- The JC Logo -->
         <a href="./index.html" class="nav-logo-link"
           ><img src="assets/jc-logo.png" class="nav-bar-logo" alt="JC-logo"
@@ -49,47 +51,48 @@
       </header>
       <!-- Main Body Container -->
       <main>
+        <!-- Contact Me Message -->
         <div class="contact-body-container">
-            <section class="contact-me-section">
-                <article class="contact-me-article">
-                    <div class="contact-me-blur">
-                        <h2>Please use one of the methods below to reach out.</h2>
-                    </div>
-                    
-                </article>
-                <div class="lights"></div>
-            </section>
-          <section>
-              <div class="contact-me-container">
-                <div class="contact-me-social" id="contact-github">
-                    <a href="https://github.com/Siyangcui" target="_blank"
-                      ><img src="assets/github-icon.png" alt="github"
-                    /></a>
-                  </div>
-                  <div class="contact-me-social" id="contact-linkedin">
-                    <a href="https://www.linkedin.com.au" target="_blank"
-                      ><img src="assets/linkedin-icon.png" alt="linkedin"
-                    /></a>
-                  </div>
-                  <div class="contact-me-social" id="contact-twitter">
-                    <a href="https://www.twitter.com" target="_blank"
-                      ><img src="assets/twitter-icon.png" alt="twitter"
-                    /></a>
-                  </div>
-                  <div class="contact-me-social" id="contact-email">
-                    <a href="mailto:placeholderemail@email.com"
-                      ><img src="assets/email-icon.png" alt="email"
-                    /></a>
-                  </div>
+          <section class="contact-me-section">
+            <article class="contact-me-article">
+              <div class="contact-me-blur">
+                <h2>Please use one of the methods below to reach out.</h2>
               </div>
+            </article>
+            <!-- R3 Light bar -->
+            <div class="lights"></div>
           </section>
-          
-            </div>
-          </section>
-          <footer class="contact-footer"><p id="copyright">&copy; Justin Cui 2021</p></footer>
         </div>
-        
+        <!-- R3 Social container -->
+        <section>
+          <div class="contact-me-container">
+            <div class="contact-me-social" id="contact-github">
+              <a href="https://github.com/Siyangcui" target="_blank"
+                ><img src="assets/github-icon.png" alt="github"
+              /></a>
+            </div>
+            <div class="contact-me-social" id="contact-linkedin">
+              <a href="https://www.linkedin.com.au" target="_blank"
+                ><img src="assets/linkedin-icon.png" alt="linkedin"
+              /></a>
+            </div>
+            <div class="contact-me-social" id="contact-twitter">
+              <a href="https://www.twitter.com" target="_blank"
+                ><img src="assets/twitter-icon.png" alt="twitter"
+              /></a>
+            </div>
+            <div class="contact-me-social" id="contact-email">
+              <a href="mailto:placeholderemail@email.com"
+                ><img src="assets/email-icon.png" alt="email"
+              /></a>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
+
+    <footer class="contact-footer">
+      <p id="copyright">&copy; Justin Cui 2021</p>
+    </footer>
   </body>
 </html>
