@@ -10,7 +10,7 @@
 
 ---
 
-Currently a developer in training with previous experience in the IT industry, this portfolio aims to display my personality, skills and past experiences to prospective employers. This website also provides acts as a CI platform that will allow me to add to and refactor old code as i learn new things during the course.
+Currently a developer in training with previous experience in the IT industry, this portfolio aims to display my personality, skills and past experiences to prospective employers. This website also acts as a CI platform that will allow me to add to and refactor old code as i learn new things during the course.
 
 ### **Functionality and Features of the website**
 
@@ -26,7 +26,7 @@ Currently a developer in training with previous experience in the IT industry, t
 
 - **Navigation Bar**
 
-The nav bar sits across all pages of the website which grants access to all other pages which provides ease of access for target audiences. The nav bar links include :
+The nav bar sits across all pages of the website which grants access other pages for ease of access for target audiences. The nav bar links include :
 
 1. About
 1. Projects
@@ -230,3 +230,14 @@ Revised Contact Page to add message above Social Links and also a light bar.
 - Balsamiq Wireframes
 - Git and Github
 - Netlify
+
+### **Future Improvements**
+
+Aim to refactor code and design of portfolio page to ensure better UX and SEO (aiming for even more simple)
+
+Some current ideas include:
+
+1. Removal of background image (faster load time = better UX)
+1. Removal of custom font hosting and just link through via google fonts or use a more generic font (faster load time = better UX)
+1. Incorporate JS once i learn it. I initially wanted to incorporate some viewport scroll fadein/fadeout on content and found some boilerplates but decided not to use it as i did not understand how it worked and would not be able to explain its functionalities and interactions.
+1. Change Experiences / Projects from a list view into a time line interactive view.
