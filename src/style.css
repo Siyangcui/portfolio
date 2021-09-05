@@ -597,7 +597,7 @@ a:hover {
 
 /*Projects Page*/
 
-.project-body-container > section {
+.project-body-container {
   display: flex;
   justify-content: center;
   padding-top: 35px;
