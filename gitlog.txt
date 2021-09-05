@@ -1,3 +1,15 @@
+commit 40181d5bf68ef0193d8f00364c0a5bb3cddabc1f
+Author: Si Yang Cui <siyangcui@gmail.com>
+Date:   Sun Sep 5 13:21:39 2021 +1000
+
+    redeployed website after changes and updated ppt
+
+commit 1bd6e67e7a50f5ad78a4edaf1ea113100916bd16
+Author: Si Yang Cui <siyangcui@gmail.com>
+Date:   Sun Sep 5 13:14:16 2021 +1000
+
+    deleted git log which was created in the incorrect directory annd updated gitlog in the correct directory
+
 commit 2fac19d73b1b00711e55288d94efcf789906e543
 Author: Si Yang Cui <siyangcui@gmail.com>
 Date:   Sun Sep 5 13:07:18 2021 +1000
