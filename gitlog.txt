@@ -1,3 +1,27 @@
+commit 64db2b45e2c6c81a49fe3354fa6d24e863d25b8e
+Author: Si Yang Cui <siyangcui@gmail.com>
+Date:   Sun Sep 5 12:32:51 2021 +1000
+
+    re-added SRI
+
+commit 17526abddab2a1da4789123056d0b5923e4bef9c
+Author: Si Yang Cui <siyangcui@gmail.com>
+Date:   Sun Sep 5 12:25:09 2021 +1000
+
+    added additional semantics and accessibility titles and amended style to fit additional semantics
+
+commit 1c12d5aac0f555a5234d5694330fd31d7d26aba9
+Author: Si Yang Cui <siyangcui@gmail.com>
+Date:   Fri Sep 3 12:08:43 2021 +1000
+
+    more formatting on readme.md
+
+commit 1e11a55330b4c43196172246fbfda3a937f4103d
+Author: Si Yang Cui <siyangcui@gmail.com>
+Date:   Fri Sep 3 12:07:08 2021 +1000
+
+    updated gitlog.txt
+
 commit 2104236fe16c3591007a6b9adb64fb66dd4daab1
 Author: Si Yang Cui <siyangcui@gmail.com>
 Date:   Fri Sep 3 12:06:30 2021 +1000
