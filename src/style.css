@@ -585,12 +585,20 @@ a:hover {
   display: inline-block;
 }
 
+.leftcolumn > article > section > ul > li,
+.rightcolumn > article > section > ul > li,
+.leftcolumn > article > section > dl > dt {
+  padding: 0.5em;
+}
+
 /* R2 resize of content on about me page */
 
 @media only screen and (max-width: 750px) {
   .leftcolumn > article > section > ul > li,
   .rightcolumn > article > section > ul > li,
-  .toprow-me > article > * {
+  .toprow-me > article > *,
+  .leftcolumn > article > section > dl > *,
+  .rightcolumn > article > section > dl > * {
     font-size: 12px;
   }
 }
