@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Justin Cui - Home</title>
+    <link
+      rel="stylesheet"
+      href="style.css"
+      integrity="sha384-UKRRCcDbOmlLKxWLNdUbCZm3obbJ2QLvjalEbbHu32ZAIScJ6cNFgxc+QYT/kEWX"
+    />
+    <link rel="icon" href="./assets/jc-logo.png" type="image/x-icon" />
+    <meta name="Author" content="Justin Cui" />
+    <meta name="Description" content="Justin Cui X Portfolio Website" />
+  </head>
+  <!-- Body -->
+  <body>
+    <!-- R3 Background Image - to encapsulate content via CSS set to fixed / no repeat / centered -->
+    <!-- Background Image -->
+    <div class="background-image">
+      <!-- R2 Nav Bar Component that houses 2 lists and the logo in between -->
+      <!-- Navigation Bar container -->
+      <nav class="nav-bar">
+        <!-- Left Navigation Links -->
+        <div class="nav-link">
+          <ul>
+            <li><a href="./about.html" class="nav-bar-links">About</a></li>
+            <li>
+              <a href="./projects.html" class="nav-bar-links">Projects</a>
+            </li>
+          </ul>
+        </div>
+        <!-- R3 Logo (image) component that doubles as a hyperlink to home (index.html) -->
+        <!-- The JC Logo -->
+        <a href="./index.html" class="nav-logo-link"
+          ><img
+            src="assets/jc-logo.png"
+            class="nav-bar-logo"
+            alt="JC-logo"
+            title="JC Logo"
+        /></a>
+        <!-- Right Navigation Links -->
+        <div class="nav-link">
+          <ul>
+            <li><a href="./blog.html" class="nav-bar-links">Blog</a></li>
+            <li><a href="./contact.html" class="nav-bar-links">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Main Body Container -->
+      <main class="home-body-container">
+        <!-- R2 Name in seperate elements so can apply Delayed Fade in effect on each letter -->
+        <section class="personal">
+          <h1 class="index-name" id="letter-J">J</h1>
+          <h1 class="index-name" id="letter-U">U</h1>
+          <h1 class="index-name" id="letter-S">S</h1>
+          <h1 class="index-name" id="letter-T">T</h1>
+          <h1 class="index-name" id="letter-I">I</h1>
+          <h1 class="index-name" id="letter-N">N</h1>
+          <!-- Required to have space between first and last name -->
+          <h1 class="index-name">&nbsp;</h1>
+          <h1 class="index-name" id="letter-C">C</h1>
+          <h1 class="index-name" id="letter-U2">U</h1>
+          <h1 class="index-name" id="letter-I2">I</h1>
+          <!-- R2 Job Title -->
+          <h2 class="role" id="profession">Full Stack Developer (wannabe)</h2>
+        </section>
+        <!-- R3 Links to professional websites -->
+        <section class="social-container">
+          <div class="socials" id="github">
+            <a href="https://github.com/Siyangcui" target="_blank"
+              ><img
+                src="assets/github-icon.png"
+                alt="github"
+                title="GitHub Link"
+            /></a>
+          </div>
+          <!-- R3 Links to professional websites -->
+          <div class="socials" id="linkedin">
+            <a href="https://www.linkedin.com.au" target="_blank"
+              ><img
+                src="assets/linkedin-icon.png"
+                alt="linkedin"
+                title="Linkedin Link"
+            /></a>
+          </div>
+          <!-- R3 Links to professional websites -->
+          <div class="socials" id="twitter">
+            <a href="https://www.twitter.com" target="_blank"
+              ><img
+                src="assets/twitter-icon.png"
+                alt="twitter"
+                title="Twitter Link"
+            /></a>
+          </div>
+          <!-- R3 Links to professional websites -->
+          <div class="socials" id="resume">
+            <a
+              href="./assets/Placeholder-resume.pdf"
+              download="Siyangcui_Resume"
+              ><img
+                src="assets/documents.png"
+                alt="resume"
+                title="Download Resume"
+            /></a>
+          </div>
+        </section>
+      </main>
+      <footer><p id="copyright">&copy; Justin Cui 2021</p></footer>
+    </div>
+  </body>
+</html>
