@@ -1,6 +1,6 @@
 ## **Portfolio Website - Si Yang (Justin) Cui**
 
-**Portfolio: [Portfolio Link](https://elegant-raman-aa216d.netlify.app)**
+**Portfolio: [Portfolio Link](https://siyangcui.github.io/portfolio/)**
 
 **Github Repo: [Github Repo Link](https://github.com/Siyangcui/portfolio_T1A2)**
 
